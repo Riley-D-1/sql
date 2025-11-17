@@ -29,5 +29,69 @@
                     --(4,'English',97),
                     --(5,'Maths',82),
                     --(5,'Science',5);
-SELECT * FROM Students;
+--SELECT * FROM Students;
 
+--SELECT firstname,lastname FROM Students;
+
+--SELECT * FROM Students LIMIT 5;
+
+--SELECT firstname, dob from Students
+    --WHERE firstname LIKE 'B%';
+
+--SELECT firstname,lastname from Students
+--ORDER BY lastname ASC
+--SELECT firstname,lastname,dob from Students
+   -- WHERE dob LIKE '%2017';
+--SELECT * from Marks
+
+--SELECT * from Marks
+    --WHERE subject LIKE '%English';
+
+--SELECT * from Marks
+    --WHERE mark < 50;
+--SELECT * from Marks
+    --WHERE mark >= 50
+--UPDATE Students
+    --SET firstname = 'Nick'
+    --WHERE id = 2;
+--UPDATE Marks
+    --SET subject = 'Maths Advanced'
+    --WHERE subject = 'Maths';
+--UPDATE Students
+    --SET lastname = 'Simpson'
+    --WHERE id = 8;
+--UPDATE Marks
+    --SET subject = 'English Standard'
+    --WHERE subject = 'English';
+--UPDATE Marks
+    --SET mark = 150
+    --WHERE subject = 'Science';
+--DELETE FROM Students
+    --WHERE id = 2;
+--INSERT INTO Students(firstname, lastname, dob)
+    --VALUES('Bobby','Bob','3/1/2008');
+--DELETE FROM Marks
+    --WHERE mark < 25;
+
+--DELETE FROM Students
+    --WHERE lastname = 'Simpson'
+--DELETE FROM Marks
+    --WHERE mark > 100
+--SELECT Count(id), firstname
+    --FROM Students
+    --GROUP BY firstname
+--SELECT SUM(mark), subject
+    --FROM Marks
+    --GROUP BY subject;
+--SELECT AVG(mark), subject
+    --FROM Marks
+    --GROUP BY subject;
+--SELECT Count(id), lastname
+    --FROM Students
+    --GROUP BY lastname
+--SELECT Max(mark), subject
+    --FROM Marks
+    --GROUP BY subject;
+--SELECT Count(mark), subject
+    --FROM Marks
+    --GROUP BY subject;
