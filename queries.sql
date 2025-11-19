@@ -99,3 +99,4 @@
         --Marks.subject, Marks.mark
 --FROM Students JOIN Marks 
 --ON Students.id=Marks.student_id;
+-- Dont know the answer for joining q1
